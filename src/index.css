@@ -2,10 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* GENERALES */
 
 body{
-  font-family: system-ui;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.charm{
+  font-family: 'Charm', sans-serif;
+}
+
+/* HEADER */
+
+
+.active {
+  position: relative;
+  display: inline-block;
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 1px;
+  width: 20px;
+  height: 4px; 
+  background-color: #E6328B; 
+  border-radius: 5px;
 }
