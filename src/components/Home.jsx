@@ -14,7 +14,7 @@ export default function Home() {
     <div>
     <main className='container'>
       <div className='py-2 px-12'>
-        <h2 className='text-5xl w-2/3 text-[#E6328B] font-bold my-10'>{t('title')}</h2>
+        <h2 className='text-5xl w-2/4 text-[#E6328B] font-bold my-10'>{t('title')}</h2>
         <p className='text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='text-lg text-gray-600'>{t('subtitle2')}</p>
         <button className='w-32 h-9 rounded-lg my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-gray-300 shadow-md'>
