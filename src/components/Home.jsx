@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
     <main className='container'>
-      <div className='py-8 px-12'>
+      <div className='py-2 px-12'>
         <h2 className='text-5xl w-1/3 text-[#E6328B] font-bold my-10'>{t('title')}</h2>
         <p className='text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='text-lg text-gray-600'>{t('subtitle2')}</p>
@@ -25,7 +25,7 @@ export default function Home() {
       <div className=''>
         <img className='absolute top-20 right-0 w-[380px]' src={Drink} alt="" />
         <img className='absolute top-0 right-0 w-[700px] h-[100vh] -z-20' src={Background} alt="" />
-        <img className='absolute top-32 right-96 w-[250px]' src={Plate} alt="" />
+        <img className='absolute top-32 right-80 w-[250px]' src={Plate} alt="" />
       </div>
       <div className='flex items-center gap-2 text-2xl absolute bottom-2 left-2'>
         <Icon icon="mdi:instagram" />
