@@ -23,7 +23,7 @@ export default function Home() {
         <p className='charm text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#E6328B] to-[#E2DD9A] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
-        <img className='absolute top-20 right-0 w-[380px]' src={Drink} alt="" />
+        <img className='absolute top-14 right-0 w-[380px]' src={Drink} alt="" />
         <img className='absolute top-0 right-0 w-[700px] h-[100vh] -z-20' src={Background} alt="" />
         <img className='absolute top-32 right-80 w-[250px]' src={Plate} alt="" />
       </div>

@@ -37,7 +37,7 @@ export default function Header() {
                 <li>{t('aboutUs')}</li>
             </Link>
             </ul>
-            <button className='bg-[#FFC231] w-[120px] h-[35px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
+            <button className='bg-[#FFC231] w-[130px] h-[35px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
                 <p className='text-[#009B7E] font-bold text-md m-1'>{t('globo')}</p>
             </button>
             <div className="relative inline-block text-left">

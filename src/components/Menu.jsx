@@ -9,10 +9,10 @@ export default function Menu() {
   return (
     <div>
       <h2>{t('bowls')}</h2>
-        <div>
+        <div className='flex items-center'>
           <img className='w-[200px] object-contain' src={ClassicBowl} alt="" />
-          <div>
-            <h3>Classic Acai</h3>
+          <div className=''>
+            <h3 className='text-2xl'>Classic Acai</h3>
             <p>Acai, granola, peanut butter, banana, strawberry, blueberry & coconut</p>
           </div>
         </div>
