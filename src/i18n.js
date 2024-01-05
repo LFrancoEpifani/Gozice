@@ -17,7 +17,9 @@ const resources = {
         gozice: 'Gozice',
         ourmenu: 'Ver menú',
         english: 'Inglés',
-      spanish: 'Español'
+      spanish: 'Español',
+      bowls: 'Nuestros Bowls',
+      smoothies: 'Nuestros Smoothies'
     },
   },
   en: {
@@ -27,14 +29,16 @@ const resources = {
      menu: 'Menu',
      aboutUs: 'About Us',
      globo: 'Take your order',
-     title: 'Nurtures a happy and healthy lifestyle',
+     title: 'Nurturing happy and healthy lifestyle',
       subtitle: 'Immerse yourself in a world of wellness and flavor with our unique',
       subtitle2: 'acai bowls and smoothie creations, to make you feel better than ever before.',
       slogan: 'Feel the taste, feel',
       gozice: 'Gozice',
       ourmenu: 'Our menú',
       english: 'English',
-      spanish: 'Spanish'
+      spanish: 'Spanish',
+      bowls: 'Our Bowls',
+      smoothies: 'Our Smoothies'
     },
   },
 };

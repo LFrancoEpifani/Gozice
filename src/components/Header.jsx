@@ -26,7 +26,7 @@ export default function Header() {
     <div className='flex justify-between p-4'>
         <img className='w-[120px] h-[40px]' src={Gozice} alt="Logo de gozice" />
         <nav className='flex justify-center items-center gap-6'>
-            <ul className='flex justify-center items-center gap-8 text-lg'>
+            <ul className='flex justify-center items-center gap-8 text-md'>
             <Link to="/" className={location.pathname === '/' ? 'active font-bold' : ''}>
                 <li>{t('home')}</li>
             </Link>
@@ -37,7 +37,7 @@ export default function Header() {
                 <li>{t('aboutUs')}</li>
             </Link>
             </ul>
-            <button className='bg-[#FFC231] w-[150px] h-[40px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
+            <button className='bg-[#FFC231] w-[120px] h-[35px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
                 <p className='text-[#009B7E] font-bold text-md m-1'>{t('globo')}</p>
             </button>
             <div className="relative inline-block text-left">
