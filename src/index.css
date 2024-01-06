@@ -9,7 +9,6 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-y: hidden;
 }
 
 .container {
@@ -19,6 +18,10 @@ body{
 
 .charm{
   font-family: 'Charm', sans-serif;
+}
+
+.scroll{
+  overflow-y: auto !important;
 }
 
 /* HEADER */
