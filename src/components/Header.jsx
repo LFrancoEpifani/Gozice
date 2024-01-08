@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
+import BurgerMenu from './BurgerMenu';
 
 
 export default function Header() {
@@ -20,13 +21,32 @@ export default function Header() {
     };
 
     const location = useLocation();
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleOpenMenu = () =>{
+      setIsOpen(!isOpen);
+    }
     
 
   return (
-    <div className='flex justify-between p-4'>
-        <img className='w-[120px] h-[40px]' src={Gozice} alt="Logo de gozice" />
-        <nav className='flex justify-center items-center gap-6'>
-            <ul className='flex justify-center items-center gap-8 text-md'>
+    <div className='flex justify-between items-center p-3'>
+        <Link to={"/"}>
+        <img className='w-[90px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
+        </Link>
+        
+        <div>
+          <button onClick={handleOpenMenu}>
+            <Icon className={`${isOpen ? 'hidden' : ''} md:hidden text-xl`} icon="tabler:menu-deep" />
+          </button>
+        </div>
+
+        {isOpen && (
+          <BurgerMenu onClick={handleOpenMenu}/>
+        )}
+
+        <nav className='max-md:hidden lg:flex lg:justify-center lg:items-center lg:gap-6'>
+            <ul className='lg:flex lg:justify-center lg:items-center lg:gap-8 text-md'>
             <Link to="/" className={location.pathname === '/' ? 'active font-bold' : ''}>
                 <li>{t('home')}</li>
             </Link>

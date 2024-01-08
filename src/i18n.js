@@ -19,7 +19,18 @@ const resources = {
         english: 'Inglés',
       spanish: 'Español',
       bowls: 'Nuestros Bowls',
-      smoothies: 'Nuestros Smoothies'
+      smoothies: 'Nuestros Smoothies',
+      classic: 'Acai, granola, mantequilla de cacahuete, plátano, fresa, arándanos y coco.',
+      rainbow: 'Acai, mango, pitaya, granola, plátano, fresa y arándanos.',
+      blue: 'Acai, chía azul, granola, mantequilla de almendras, plátano, arándanos y semillas de cáñamo.',
+      bliss: 'Acai, granola, plátano, fresa, cacao & doble mantequilla de cacahuete.',
+      classicSmoothie: 'fresas, plátano, yogur desnatado y chocolate blanco.',
+      chocozice: 'chocolate, coco, yogur desnatado y plátano.',
+      avozice: 'espinacas, manzana verde, kiwi, jengibre y limón.',
+      detozice: 'espinacas, col rizada, mango, piña, plátano y jengibre.',
+      mangozice: 'mango, piña, zumo de naranja y plátano.',
+      oranzice: 'fresa, zumo de naranja, piña y lima.',
+      butterzice: 'mantequilla de cacahuete, chocolate y plátano.'
     },
   },
   en: {
@@ -38,7 +49,18 @@ const resources = {
       english: 'English',
       spanish: 'Spanish',
       bowls: 'Our Bowls',
-      smoothies: 'Our Smoothies'
+      smoothies: 'Our Smoothies',
+      classic: 'Acai, granola, peanut butter, banana, strawberry, blueberry & coconut.',
+      rainbow: 'Acai, mango, pitaya, granola, banana, strawberry & blueberry.',
+      blue: 'Acai, blue chia, granola, almond butter, banana, blueberry & hemp seeds.',
+      bliss: 'Acai, granola, banana, strawberry, cacao & double peanut butter.',
+      classicSmoothie: 'strawberrys, banana, non fat yogurt & white chocolate.',
+      chocozice: 'chocolate, cocounat, non fat yogurt & banana.',
+      avozice: 'spinach, green apple, kiwi, ginger & lemon.',
+      detozice: 'spinach, kale, mango, pineapple, banana &  ginger.',
+      mangozice: 'mango, pineapple, orange juice & banana.',
+      oranzice: 'strawberry, orange juice, pineapple & lime.',
+      butterzice: 'peanut butter, chocolate & banana.'
     },
   },
 };
