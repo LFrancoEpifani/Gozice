@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className='w-full h-full'>
-      <div className='py-2 px-12'>
+      <div className='py-2 px-12 text-center'>
         <h2 className='my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
         <p className='text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
