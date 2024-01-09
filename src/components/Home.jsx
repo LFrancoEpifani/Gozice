@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div className=''>
         <img className='absolute bottom-0 right-0 w-[180px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
-        <img className='absolute top-0 right-0  w-[200px] lg:w-[700px] h-screen -z-20' src={Background} alt="" />
+        <img className='absolute top-0 right-0  w-[200px] lg:w-[700px] h-full -z-20' src={Background} alt="" />
         <img className='absolute bottom-0 right-40 w-[180px] lg:top-28  lg:right-80 lg:w-[250px]' src={Plate} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute bottom-2 left-2'>
