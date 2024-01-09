@@ -8,6 +8,7 @@ export default function BurgerMenu(props) {
   const { t, i18n } = useTranslation();
   const location = useLocation();
   const [currentLanguage, setCurrentLanguage] = useState('es');
+  
 
   const handleSwitchLanguage = () => {
     if (currentLanguage === 'es') {
@@ -20,9 +21,9 @@ export default function BurgerMenu(props) {
   };
 
   return (
-    <div className='h-full'>
-      <nav className='absolute top-0 right-0 z-20 bg-gradient-to-b from-[#edadce] to-[#e895bc] h-full w-2/3'>
-      <Icon onClick={props.onClick} className="absolute top-0 right-0 m-2 text-xl" icon="mingcute:close-fill" />
+    <div className=''>
+      <nav className='absolute top-0 right-0 z-20 bg-gradient-to-b from-[#edadce] to-[#e895bc] h-screen w-2/3'>
+      <Icon onClick={props.onClick} className="absolute top-0 right-0 m-2 text-xl " icon="mingcute:close-fill" />
         <ul className='text-lg mt-14 mb-4 flex flex-col gap-3 justify-end items-start mx-3'>
           <Link to="/" className={location.pathname === '/' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
           <div className='flex items-center justify-center gap-2'>
@@ -63,10 +64,11 @@ export default function BurgerMenu(props) {
             </button>
           </div>
         </div>
-
+        <a href=" https://glovoapp.com/es/es/" target='_blank'>
         <button className='my-10 w-60 m-auto p-2 bg-[#FFC231] lg:w-[130px] lg:h-[35px] lg:rounded-full flex justify-center items-center shadow-lg text-[#009B7E] text-lg font-bold hover:bg-[#ff61a6] hover:text-white'>
           {t('globo')}
         </button>
+        </a>
         <div className='absolute bottom-2 right-2 flex items-center text-xl gap-2 text-white'>
         <Icon icon="mdi:instagram" />
         <Icon icon="mdi:twitter" />

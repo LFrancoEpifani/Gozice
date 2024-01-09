@@ -35,14 +35,14 @@ export default function Header() {
         <img className='w-[90px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
         </Link>
         
-        <div>
+     
           <button onClick={handleOpenMenu}>
             <Icon className={`${isOpen ? 'hidden' : ''} md:hidden text-xl`} icon="tabler:menu-deep" />
           </button>
-        </div>
+      
 
         {isOpen && (
-          <BurgerMenu onClick={handleOpenMenu}/>
+            <BurgerMenu onClick={handleOpenMenu}/>
         )}
 
         <nav className='max-md:hidden lg:flex lg:justify-center lg:items-center lg:gap-6'>
@@ -57,9 +57,11 @@ export default function Header() {
                 <li>{t('aboutUs')}</li>
             </Link>
             </ul>
+            <a href=" https://glovoapp.com/es/es/" target='_blank'>
             <button className='bg-[#FFC231] w-[130px] h-[35px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
                 <p className='text-[#009B7E] font-bold text-md m-1'>{t('globo')}</p>
             </button>
+            </a>
             <div className="relative inline-block text-left">
     <div>
         <button onClick={toggleLanguageMenu} type="button" className=" border border-gray-300 bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center w-full rounded-md  px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-50 hover:bg-gray-50 dark:hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500" id="options-menu">
