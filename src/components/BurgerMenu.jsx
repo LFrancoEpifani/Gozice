@@ -21,7 +21,7 @@ export default function BurgerMenu(props) {
 
   return (
     <div className='h-full'>
-      <nav className='absolute top-0 right-0 z-20 bg-gradient-to-b from-[#edadce] to-[#e895bc] h-screen w-2/3'>
+      <nav className='absolute top-0 right-0 z-20 bg-gradient-to-b from-[#edadce] to-[#e895bc] h-full w-2/3'>
       <Icon onClick={props.onClick} className="absolute top-0 right-0 m-2 text-xl" icon="mingcute:close-fill" />
         <ul className='text-lg mt-14 mb-4 flex flex-col gap-3 justify-end items-start mx-3'>
           <Link to="/" className={location.pathname === '/' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
