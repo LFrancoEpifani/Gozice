@@ -24,7 +24,7 @@ export default function BurgerMenu(props) {
 
   return (
     <div className=''>
-     <nav className={`absolute top-0 right-0 z-20 bg-gradient-to-b from-[#edadce] to-[#e895bc] h-screen w-2/3 ${isOpen ? 'mobile-menu-out' : 'mobile-menu'}`}>
+     <nav className={`absolute top-0 right-0 z-20 bg-gradient-to-b from-[#f0bcd7] to-[#efaaca] h-screen w-2/3 ${isOpen ? 'mobile-menu-out' : 'mobile-menu'}`}>
       <Icon onClick={props.onClick} className="absolute top-0 right-0 m-2 text-xl " icon="mingcute:close-fill" />
         <ul className='text-lg mt-14 mb-4 flex flex-col gap-3 justify-end items-start mx-3'>
           <Link to="/" className={location.pathname === '/' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
@@ -49,7 +49,7 @@ export default function BurgerMenu(props) {
           </Link>
         </ul>
 
-        <div className="mx-2 my-2">
+        <div className="mx-1.5 my-2">
           <div className="" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             <button onClick={handleSwitchLanguage} className="focus:outline-none">
               {currentLanguage === 'es' ? (
