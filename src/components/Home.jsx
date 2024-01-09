@@ -13,7 +13,7 @@ export default function Home() {
   const {t} = useTranslation();
 
   return (
-    <main className='w-full'>
+    <main className='w-full h-full'>
       <div className='py-2 px-12'>
         <h2 className='my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
         <p className='text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
@@ -26,7 +26,7 @@ export default function Home() {
         <p className='charm text-xl lg:text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
-        <img className='absolute bottom-0 right-0 w-[200px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
+        <img className='absolute bottom-0 right-0 w-[180px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
         <img className='absolute top-0 right-0  w-[200px] lg:w-[700px] h-screen -z-20' src={Background} alt="" />
         <img className='absolute bottom-0 right-40 w-[180px] lg:top-28  lg:right-80 lg:w-[250px]' src={Plate} alt="" />
       </div>
