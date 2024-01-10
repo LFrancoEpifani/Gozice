@@ -58,7 +58,7 @@ export default function Header() {
             </Link>
             </ul>
             <a href=" https://glovoapp.com/es/es/" target='_blank'>
-            <button className='bg-[#FFC231] w-[130px] h-[35px] rounded-full flex justify-center items-center shadow-gray-300 shadow-md'>
+            <button className='bg-[#FFC231] w-[130px] h-[35px] rounded-full flex justify-center items-center shadow-[#E6328B] shadow-md'>
                 <p className='text-[#009B7E] font-bold text-md m-1'>{t('globo')}</p>
             </button>
             </a>

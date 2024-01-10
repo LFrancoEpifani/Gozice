@@ -41,8 +41,9 @@ main{
 .mobile-menu-out {
   animation: slide-out 0.3s ease-in-out;
 }
-
-
+.about-text{
+  color: #EC5AA2;
+}
 
 .container {
   max-width: 1280px;
@@ -55,6 +56,11 @@ main{
 
 .scroll{
   overflow-y: auto !important;
+}
+
+.img-size img{
+  width: 80px;
+  height: 80px;
 }
 
 /* HEADER */

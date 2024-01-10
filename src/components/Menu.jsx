@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import Background from '../assets/Vector.png'
 import ClassicBowl from '../assets/ClassicAcai.png'
 import BlueChiaBowl from '../assets/BlueChia.png'
 import RainbowBowl from '../assets/Rainbow.png'

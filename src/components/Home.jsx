@@ -19,7 +19,7 @@ export default function Home() {
         <p className='text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
-          <button className='w-32 h-9 rounded-lg my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-gray-300 shadow-md'>
+          <button className='w-32 h-9 rounded-lg my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>
