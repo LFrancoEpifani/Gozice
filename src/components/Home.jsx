@@ -31,8 +31,8 @@ export default function Home() {
       </div>
       <div className=''>
         <img className='absolute bottom-6 right-0 w-[145px] lg:right-0 lg:top-56 lg:w-[250px]' src={Bebida} alt="" />
-        <img className='absolute bottom-6 right-44 w-[150px] lg:top-44 lg:right-56 lg:w-[240px] z-10' src={Plate} alt="" />
-        <img className='absolute -bottom-1 right-39 w-[195px] lg:top-36 lg:right-45 lg:w-[325px] z-20 rotating-image' src={Letters} alt="" />
+        <img className='absolute bottom-6 right-44 w-[150px] lg:top-44 lg:right-56 lg:w-[240px] ' src={Plate} alt="" />
+        <img className='absolute -bottom-1 right-39 w-[195px] lg:top-36 lg:right-45 lg:w-[325px] rotating-image' src={Letters} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute -bottom-10 left-2'>
         <Icon icon="mdi:instagram" />
