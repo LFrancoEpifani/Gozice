@@ -43,8 +43,8 @@ export default function Header() {
 
   return (
     <div className=''>
-    <div className="overflow-hidden  bg-[#ff61a6] border border-black">
-      <div className="animate-slide flex justify-center items-center gap-3 bai text-black text-xl">
+    <div className="overflow-hidden  bg-[#ff61a6] border border-black ">
+      <div className="animate-slide flex justify-center items-center gap-3 quick font-bold text-black text-xl">
         <span className="mx-4">{t('goziceSlider')}</span>
         <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
         <span className='mx-4 underline'>Còrsega 263</span>

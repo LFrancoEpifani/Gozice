@@ -56,6 +56,10 @@ main{
   background-size: cover;
 }
 
+.quick{
+  font-family: 'Quicksand', sans-serif;
+}
+
 .animate-slide {
   display: flex;
   white-space: nowrap;
