@@ -3,7 +3,8 @@ import {Icon} from '@iconify/react'
 import { useTranslation } from 'react-i18next'
 import Bebida from '../assets/Bebida.png'
 import Background from '../assets/Vector.png'
-import Plate from '../assets/Plate.png'
+import Plate from '../assets/StrawBerrys.png'
+import Letters from '../assets/Letters.png'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import Carusel from './Carusel'
@@ -18,10 +19,9 @@ export default function Home() {
     <main className='w-full h-screen'>
       <Carusel/>
       <Header/>
-      <div className='text-center lg:text-start py-2'>
-        <h2 className='my-6 text-3xl px-12 lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-6 lg:tracking-wide'>{t('title')}</h2>
-        <p className='bai px-8 font-semibold lg:text-lg text-gray-600'>{t('subtitle')}</p>
-       
+      <div className='text-center lg:text-start lg:px-12'>
+        <h2 className='my-6 text-3xl px-12 lg:px-0 lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-6 lg:tracking-wide'>{t('title')}</h2>
+        <p className='bai px-4 font-semibold lg:text-lg text-gray-600 lg:w-2/3'>{t('subtitle')}</p>
         <Link to={"/menu"}>
           <button className='bai w-32 h-9 rounded-full mt-6 mb-6 lg:my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
@@ -31,7 +31,8 @@ export default function Home() {
       </div>
       <div className=''>
         <img className='absolute bottom-6 right-0 w-[145px] lg:right-0 lg:top-56 lg:w-[250px]' src={Bebida} alt="" />
-        <img className='absolute bottom-3 right-44 w-[150px] lg:top-44 lg:right-80 lg:w-[250px]' src={Plate} alt="" />
+        <img className='absolute bottom-6 right-44 w-[150px] lg:top-44 lg:right-56 lg:w-[240px] z-10' src={Plate} alt="" />
+        <img className='absolute -bottom-1 right-39 w-[195px] lg:top-42 lg:right-52 lg:w-[325px] z-20 rotating-image' src={Letters} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute -bottom-10 left-2'>
         <Icon icon="mdi:instagram" />

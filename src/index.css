@@ -72,6 +72,20 @@ main{
 }
 
 
+@keyframes rotate360 {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.rotating-image {
+  animation: rotate360 20s linear infinite;
+}
+
+
 .about-text{
   color: #EC5AA2;
 }

@@ -57,7 +57,7 @@ export default function Header() {
                 <p className='bai uppercase tracking-tight text-[white] font-bold text-sm m-1'>{t('globoResponsive')}</p>
             </button>
         </a>
-        </div>
+        
         {isOpen && (
             <BurgerMenu onClick={handleOpenMenu}/>
         )}
@@ -120,6 +120,7 @@ export default function Header() {
            
            
         </nav>
+    </div>
     </div>
   
   )
