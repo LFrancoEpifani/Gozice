@@ -13,12 +13,15 @@ import Oranzice from '../assets/Oranzice.png'
 import ClassicSmoothie from '../assets/ClassicSmoothie.png'
 import Butterzice from '../assets/Butterzice.png'
 import Footer from './Footer'
+import Header from './Header'
 
 export default function Menu() {
 
   const {t} = useTranslation();
 
   return (
+    <div>
+      <Header/>
     <div className='grid grid-cols-1 justify-center items-center scroll'>
       <h2 className='text-center lg:text-start my-8 m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('bowls')}</h2>
         <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 my-10 mx-14'>
@@ -112,6 +115,7 @@ export default function Menu() {
         <div className='mt-20'>
         <Footer/>
         </div>
+    </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
 import BurgerMenu from './BurgerMenu';
-import Smile from '../assets/smile2.png'
+
 
 
 export default function Header() {
@@ -43,26 +43,7 @@ export default function Header() {
 
   return (
     <div className=''>
-    <div className="overflow-hidden  bg-[#ff61a6] border border-black ">
-      <div className="animate-slide flex justify-center items-center gap-3 quick font-bold text-black text-xl">
-        <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
-        <span className='mx-4 underline'>Còrsega 263</span>
-        <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
-        <span className='mx-4 underline'>Còrsega 263</span>
-        <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
-        <span className='mx-4 underline'>Còrsega 263</span>
-        <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
-        <span className='mx-4 underline'>Còrsega 263</span>
-        <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
-        <span className='mx-4 underline'>Còrsega 263</span>
-      </div>
-    </div>
-    <div className='flex justify-between items-center p-3'>
+    <div className='flex justify-between items-center p-3 bg-[#fab3d2] md:bg-white'>
         <div className='flex  justify-center items-center gap-4'>
         <button onClick={handleOpenMenu}>
             <Icon className={`${isOpen ? '' : ''} md:hidden text-2xl`} icon="clarity:menu-line" />
