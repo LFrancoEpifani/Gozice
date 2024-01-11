@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
 import BurgerMenu from './BurgerMenu';
+import Smile from '../assets/smile2.png'
 
 
 export default function Header() {
@@ -41,18 +42,24 @@ export default function Header() {
     
 
   return (
-    <div>
-    <div className="overflow-hidden bg-[#e2e980] border border-black p-3">
+    <div className=''>
+    <div className="overflow-hidden  bg-[#ff61a6] border border-black">
       <div className="animate-slide flex justify-center items-center gap-3 bai text-black text-xl">
         <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
-        <span className='mx-4'>Còrsega 263</span>
+        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
+        <span className='mx-4 underline'>Còrsega 263</span>
         <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
-        <span className='mx-4'>Còrsega 263</span>
+        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
+        <span className='mx-4 underline'>Còrsega 263</span>
         <span className="mx-4">{t('goziceSlider')}</span>
-        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
-        <span className='mx-4'>Còrsega 263</span>
+        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
+        <span className='mx-4 underline'>Còrsega 263</span>
+        <span className="mx-4">{t('goziceSlider')}</span>
+        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
+        <span className='mx-4 underline'>Còrsega 263</span>
+        <span className="mx-4">{t('goziceSlider')}</span>
+        <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
+        <span className='mx-4 underline'>Còrsega 263</span>
       </div>
     </div>
     <div className='flex justify-between items-center p-3'>
@@ -94,9 +101,9 @@ export default function Header() {
     <div className=''>
         <button onClick={handleSwitchLanguage} type="button" className="gap-1 flex items-center justify-center w-full rounded-md" id="options-menu">
         {currentLanguage === 'es' ? (
-          <Icon className='text-xl' icon="openmoji:flag-spain" />  
+          <Icon className='text-2xl' icon="openmoji:flag-spain" />  
         ) : (
-          <Icon className='text-xl' icon="openmoji:flag-united-states" />
+          <Icon className='text-2xl' icon="openmoji:flag-united-states" />
         )}
            
         </button>
@@ -109,7 +116,7 @@ export default function Header() {
           <span className='text-center'>
             <div className='flex justify-center items-center gap-5'>
               <button onClick={() => changeLanguage('en')}>{t('english')}</button>
-              <Icon icon="openmoji:flag-united-states" />
+              <Icon className='' icon="openmoji:flag-united-states" />
             </div>
           </span>
         </span>

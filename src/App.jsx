@@ -10,9 +10,7 @@ export default function App() {
   return (
     <>
    <BrowserRouter>
-    <div className="relative">
-      <Header/>
-    </div>
+   
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/menu" element={<Menu />} />
