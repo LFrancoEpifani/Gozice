@@ -56,7 +56,7 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <h2 className='text-center lg:text-start text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('smoothies')}</h2>
+        <h2 className='text-center lg:text-start mt-8 lg:m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('smoothies')}</h2>
         <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 my-8 mx-2'>
         <div className='flex-col lg:flex-row flex justify-center items-center gap-3 mt-2 mb-6 mx-14'>
             <img className='w-[70px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={ClassicSmoothie} alt="" />
