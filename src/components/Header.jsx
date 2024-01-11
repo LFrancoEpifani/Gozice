@@ -44,12 +44,12 @@ export default function Header() {
   return (
     <div className=''>
     <div className='flex justify-between items-center p-4'>
-        <div className='flex  justify-center items-center gap-4'>
+        <div className='flex justify-center items-center gap-4'>
         <button onClick={handleOpenMenu}>
             <Icon className={`${isOpen ? '' : ''} md:hidden text-2xl`} icon="clarity:menu-line" />
           </button>
         <Link to={"/"}>
-        <img className='w-[100px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
+        <img className='w-[100px] h-[32px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
         </Link> 
         </div>
         <a href=" https://glovoapp.com/es/es/" target='_blank'>
@@ -57,6 +57,7 @@ export default function Header() {
                 <p className='bai uppercase tracking-tight text-[white] font-bold text-sm m-1'>{t('globoResponsive')}</p>
             </button>
         </a>
+        </div>
         {isOpen && (
             <BurgerMenu onClick={handleOpenMenu}/>
         )}
@@ -120,6 +121,6 @@ export default function Header() {
            
         </nav>
     </div>
-    </div>
+  
   )
 }
