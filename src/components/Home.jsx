@@ -23,11 +23,11 @@ export default function Home() {
         <p className='font-semibold lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='font-semibold lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
-          <button className='bai w-32 h-9 rounded-full my-6 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
+          <button className='bai w-32 h-9 rounded-full mt-6 mb-4 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>
-        <p className='charm text-xl lg:text-2xl mt-2'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
+        <p className='charm text-xl lg:text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
         <img className='absolute bottom-0 right-0 w-[145px] lg:right-0 lg:top-56 lg:w-[230px]' src={Bebida} alt="" />
