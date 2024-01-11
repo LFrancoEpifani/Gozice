@@ -19,16 +19,16 @@ export default function Home() {
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
-          <button style={{ boxShadow: "3px 3px #884365" }}  className='bai w-32 h-9 rounded-full my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
+          <button style={{ boxShadow: "3px 3px #884365" }}  className='bai w-32 h-9 rounded-full my-6 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>
         <p className='charm text-xl lg:text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
-        <img className='absolute bottom-0 right-0 w-[180px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
-        <img className='absolute top-0 right-0 h-screen  w-[200px] lg:w-[700px] lg:h-full -z-20' src={Background} alt="" />
-        <img className='absolute bottom-0 right-40 w-[180px] lg:top-28  lg:right-80 lg:w-[250px]' src={Plate} alt="" />
+        <img className='absolute bottom-0 right-0 w-[150px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
+        <img className='absolute top-0 right-0 h-full w-[200px] lg:w-[700px] lg:h-full -z-20' src={Background} alt="" />
+        <img className='absolute bottom-0 right-40 w-[150px] lg:top-28  lg:right-80 lg:w-[250px]' src={Plate} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute bottom-2 left-2'>
         <Icon icon="mdi:instagram" />

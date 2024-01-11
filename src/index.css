@@ -41,6 +41,23 @@ main{
 .mobile-menu-out {
   animation: slide-out 0.3s ease-in-out;
 }
+
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-slide {
+  display: flex;
+  white-space: nowrap;
+  animation: slide 25s linear infinite;
+}
+
+.text {
+  margin-right: 50px; /* Espacio entre textos */
+}
+
+
 .about-text{
   color: #EC5AA2;
 }

@@ -41,6 +41,20 @@ export default function Header() {
     
 
   return (
+    <div>
+    <div className="overflow-hidden bg-[#e2e980] border border-black p-3">
+      <div className="animate-slide flex justify-center items-center gap-3 bai text-black text-xl">
+        <span className="mx-4">{t('goziceSlider')}</span>
+        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
+        <span className='mx-4'>Còrsega 263</span>
+        <span className="mx-4">{t('goziceSlider')}</span>
+        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
+        <span className='mx-4'>Còrsega 263</span>
+        <span className="mx-4">{t('goziceSlider')}</span>
+        <img className='mx-4 w-[70px] h-[20px]' src={Gozice} alt="" />
+        <span className='mx-4'>Còrsega 263</span>
+      </div>
+    </div>
     <div className='flex justify-between items-center p-3'>
         <div className='flex  justify-center items-center gap-4'>
         <button onClick={handleOpenMenu}>
@@ -55,9 +69,6 @@ export default function Header() {
                 <p className='bai uppercase tracking-tight text-[white] font-bold text-sm m-1'>{t('globoResponsive')}</p>
             </button>
         </a>
-        
-      
-
         {isOpen && (
             <BurgerMenu onClick={handleOpenMenu}/>
         )}
@@ -120,6 +131,7 @@ export default function Header() {
            
            
         </nav>
+    </div>
     </div>
   )
 }
