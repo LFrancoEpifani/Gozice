@@ -30,14 +30,9 @@ export default function Home() {
         <p className='charm text-xl lg:text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
-        <img className='absolute bottom-6 right-0 w-[145px] lg:right-0 lg:top-56 lg:w-[250px]' src={Bebida} alt="" />
-        <img className='absolute bottom-6 right-44 w-[150px] lg:top-44 lg:right-56 lg:w-[240px] ' src={Plate} alt="" />
-        <img className='absolute -bottom-1 right-39 w-[195px] lg:top-36 lg:right-45 lg:w-[325px] rotating-image' src={Letters} alt="" />
-      </div>
-      <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute -bottom-10 left-2'>
-        <Icon icon="mdi:instagram" />
-        <Icon icon="mdi:twitter" />
-        <Icon icon="ic:baseline-facebook" />
+        <img className='absolute bottom-6 right-0 w-[145px] lg:right-0 lg:top-56 lg:w-[250px] object-contain' src={Bebida} alt="" />
+        <img className='absolute bottom-6 right-44 w-[150px] lg:top-44 lg:right-56 lg:w-[240px] object-contain' src={Plate} alt="" />
+        <img className='absolute -bottom-1 right-39 w-[195px] lg:top-36 lg:right-45 lg:w-[325px] object-contain rotating-image' src={Letters} alt="" />
       </div>
     </main>
  
