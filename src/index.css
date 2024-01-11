@@ -17,20 +17,20 @@ main{
 
 @keyframes slide-in {
   from {
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
   to {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
 
 @keyframes slide-out {
   from {
-    transform: translateX(0);
+    transform: translateY(0);
   }
   to {
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
 }
 
@@ -61,6 +61,10 @@ main{
 .img-size img{
   width: 80px;
   height: 80px;
+}
+
+.bai{
+  font-family: 'Bai Jamjuree', sans-serif;
 }
 
 /* HEADER */

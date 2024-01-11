@@ -27,18 +27,35 @@ export default function Header() {
     const handleOpenMenu = () =>{
       setIsOpen(!isOpen);
     }
+    const [currentLanguage, setCurrentLanguage] = useState('es');
+
+    const handleSwitchLanguage = () => {
+      if (currentLanguage === 'es') {
+        setCurrentLanguage('en');
+        i18n.changeLanguage('en');
+      } else {
+        setCurrentLanguage('es');
+        i18n.changeLanguage('es');
+      }
+    };  
     
 
   return (
     <div className='flex justify-between items-center p-3'>
-        <Link to={"/"}>
-        <img className='w-[90px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
-        </Link>
-        
-     
-          <button onClick={handleOpenMenu}>
-            <Icon className={`${isOpen ? 'hidden' : ''} md:hidden text-xl`} icon="tabler:menu-deep" />
+        <div className='flex  justify-center items-center gap-4'>
+        <button onClick={handleOpenMenu}>
+            <Icon className={`${isOpen ? '' : ''} md:hidden text-2xl`} icon="clarity:menu-line" />
           </button>
+        <Link to={"/"}>
+        <img className='w-[100px] lg:w-[105px] lg:h-[35px]' src={Gozice} alt="Logo de gozice" />
+        </Link> 
+        </div>
+        <a href=" https://glovoapp.com/es/es/" target='_blank'>
+            <button style={{ boxShadow: "5px 5px #009b7e" }} className='md:hidden bg-[#FFC231] border-2 border-[#009b7e] w-[100px] h-[40px] rounded-full'>
+                <p className='bai text-[white] font-bold text-md m-1'>{t('globoResponsive')}</p>
+            </button>
+        </a>
+        
       
 
         {isOpen && (
@@ -46,30 +63,31 @@ export default function Header() {
         )}
 
         <nav className='max-md:hidden lg:flex lg:justify-center lg:items-center lg:gap-6'>
-            <ul className='lg:flex lg:justify-center lg:items-center lg:gap-8 text-md'>
+            <ul className='bai lg:flex lg:justify-center lg:items-center lg:gap-8 text-md'>
             <Link to="/" className={location.pathname === '/' ? 'active font-bold' : ''}>
-                <li>{t('home')}</li>
+                <li className=''>{t('home')}</li>
             </Link>
             <Link to="/menu" className={location.pathname === '/menu' ? 'active font-bold' : ''}>
-                <li>{t('menu')}</li>
+                <li className=''>{t('menu')}</li>
             </Link>
             <Link to="/about" className={location.pathname === '/about' ? 'active font-bold' : ''}>
                 <li>{t('aboutUs')}</li>
             </Link>
             </ul>
             <a href=" https://glovoapp.com/es/es/" target='_blank'>
-            <button className='bg-[#FFC231] w-[130px] h-[35px] rounded-full flex justify-center items-center shadow-[#E6328B] shadow-md'>
-                <p className='text-[#009B7E] font-bold text-md m-1'>{t('globo')}</p>
+            <button style={{ boxShadow: "5px 5px #009b7e" }} className='bg-[#FFC231] border-2 border-[#009b7e] w-[130px] h-[45px] rounded-full flex justify-center items-center'>
+                <p className='bai text-[#009b7e] font-bold text-md m-1'>{t('globo')}</p>
             </button>
             </a>
             <div className="relative inline-block text-left">
-    <div>
-        <button onClick={toggleLanguageMenu} type="button" className=" border border-gray-300 bg-white dark:bg-gray-800 shadow-sm flex items-center justify-center w-full rounded-md  px-4 py-2 text-sm font-medium text-gray-700 dark:text-gray-50 hover:bg-gray-50 dark:hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-500" id="options-menu">
-            {t('lenguage')}
-            <svg width="15" height="15" fill="currentColor" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1408 704q0 26-19 45l-448 448q-19 19-45 19t-45-19l-448-448q-19-19-19-45t19-45 45-19h896q26 0 45 19t19 45z">
-                </path>
-            </svg>
+    <div className=''>
+        <button onClick={handleSwitchLanguage} type="button" className="gap-1 flex items-center justify-center w-full rounded-md" id="options-menu">
+        {currentLanguage === 'es' ? (
+          <Icon className='text-xl' icon="openmoji:flag-spain" />  
+        ) : (
+          <Icon className='text-xl' icon="openmoji:flag-united-states" />
+        )}
+           
         </button>
     </div>
     {languageMenuOpen && (

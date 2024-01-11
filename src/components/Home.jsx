@@ -14,12 +14,12 @@ export default function Home() {
 
   return (
     <main className='w-full h-full'>
-      <div className='py-2 px-12'>
-        <h2 className='my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
-        <p className='text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
-        <p className='text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
+      <div className='text-center lg:text-start py-2 px-12'>
+        <h2 className='bai my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
+        <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
+        <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
-          <button className='w-32 h-9 rounded-lg my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
+          <button style={{ boxShadow: "3px 3px #884365" }}  className='bai w-32 h-9 rounded-full my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div className=''>
         <img className='absolute bottom-0 right-0 w-[180px] lg:top-14 lg:w-[350px]' src={Drink} alt="" />
-        <img className='absolute top-0 right-0  w-[200px] lg:w-[700px] h-full -z-20' src={Background} alt="" />
+        <img className='absolute top-0 right-0 h-screen  w-[200px] lg:w-[700px] lg:h-full -z-20' src={Background} alt="" />
         <img className='absolute bottom-0 right-40 w-[180px] lg:top-28  lg:right-80 lg:w-[250px]' src={Plate} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute bottom-2 left-2'>

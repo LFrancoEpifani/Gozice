@@ -24,54 +24,51 @@ export default function BurgerMenu(props) {
 
   return (
     <div className=''>
-     <nav className={`absolute top-0 right-0 z-20 bg-gradient-to-b from-[#f0bcd7] to-[#efaaca] h-screen w-2/3 ${isOpen ? 'mobile-menu-out' : 'mobile-menu'}`}>
-      <Icon onClick={props.onClick} className="absolute top-0 right-0 m-2 text-xl " icon="mingcute:close-fill" />
-        <ul className='text-lg mt-14 mb-4 flex flex-col gap-3 justify-end items-start mx-3'>
-          <Link to="/" className={location.pathname === '/' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
+     <nav className={`absolute top-0 left-0 z-20 bg-gradient-to-b from-[#f1f0d8] to-[#efaaca] h-screen w-full ${isOpen ? 'mobile-menu-out' : 'mobile-menu'}`}>
+      <Icon onClick={props.onClick} className="absolute top-0 right-0 m-3 text-3xl " icon="mingcute:close-fill" />
+        <ul className='bai text-4xl flex flex-col gap-3 justify-center items-start mt-44 mx-14'>
+          <Link to="/" className={location.pathname === '/' ? ' font-bold text-[#ff61a6]' : 'text-black'}>
           <div className='flex items-center justify-center gap-2'>
-            <Icon className='text-[#ff61a6] text-2xl' icon="ri:home-line" />
+           
             <li>{t('home')}</li>
           </div>
           </Link>
-          <Link to="/menu" className={location.pathname === '/menu' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
+          <Link to="/menu" className={location.pathname === '/menu' ? ' font-bold text-[#ec74a8]' : 'text-black'}>
             <div className='flex items-center justify-center gap-2'>
-            <Icon className='text-[#ff61a6] text-2xl' icon="material-symbols:menu-book-outline" />
+            
               <li>{t('menu')}</li>
 
             </div>
 
           </Link>
-          <Link to="/about" className={location.pathname === '/about' ? ' font-bold text-[#ff61a6]' : 'text-white'}>
+          <Link to="/about" className={location.pathname === '/about' ? ' font-bold text-[#ff61a6]' : 'text-black'}>
             <div className='flex items-center justify-center gap-2'>
-            <Icon className='text-[#ff61a6] text-2xl' icon="mingcute:group-3-line" />
+          
             <li>{t('aboutUs')}</li>
             </div>
           </Link>
-        </ul>
-
-        <div className="mx-1.5 my-2">
+          
+        <div className="">
           <div className="" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
             <button onClick={handleSwitchLanguage} className="focus:outline-none">
               {currentLanguage === 'es' ? (
-                <div className='flex items-center gap-3 text-lg text-white font-semibold'>
-                    <Icon className='text-2xl ml-2' icon="openmoji:flag-spain" />
-                  <span>Español</span>
+                <div className='flex items-center text-lg text-white font-semibold'>
+                    <Icon className='text-5xl' icon="openmoji:flag-spain" />
+                 
                 </div>
               ) : (
-                <div className='flex items-center text-lg gap-3 text-white font-semibold'>
-                  <Icon className='text-2xl ml-2' icon="openmoji:flag-united-states" />
-                  <span>English</span>
+                <div className='flex items-center text-lg text-white font-semibold'>
+                  <Icon className='text-5xl' icon="openmoji:flag-united-states" />
+                  
                 </div>
               )}
             </button>
           </div>
         </div>
-        <a href=" https://glovoapp.com/es/es/" target='_blank'>
-        <button className='my-10 w-60 m-auto p-2 bg-[#FFC231] lg:w-[130px] lg:h-[35px] lg:rounded-full flex justify-center items-center shadow-lg text-[#009B7E] text-lg font-bold hover:bg-[#ff61a6] hover:text-white'>
-          {t('globo')}
-        </button>
-        </a>
-        <div className='absolute bottom-2 right-2 flex items-center text-xl gap-2 text-white'>
+        </ul>
+
+        
+        <div className='absolute bottom-2 right-2 flex items-center text-3xl gap-2 text-white'>
         <Icon icon="mdi:instagram" />
         <Icon icon="mdi:twitter" />
         <Icon icon="ic:baseline-facebook" />
