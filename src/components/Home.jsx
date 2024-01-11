@@ -16,14 +16,14 @@ export default function Home() {
   const {t} = useTranslation();
 
   return (
-    <main className='w-full h-screen'>
+    <main className='w-full h-full'>
       <Carusel/>
       <Header/>
       <div className='text-center lg:text-start lg:px-12'>
         <h2 className='my-6 text-3xl px-12 lg:px-0 lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-6 lg:tracking-wide'>{t('title')}</h2>
         <p className='bai px-4 font-semibold lg:text-lg lg:px-0 text-gray-600 lg:w-2/4'>{t('subtitle')}</p>
         <Link to={"/menu"}>
-          <button className='bai w-32 h-9 rounded-full mt-6 mb-6 lg:my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
+          <button style={{ boxShadow: "0px 6px #48889C" }} className='bai uppercase border-2 border-[#48889C] w-32 h-9 rounded-full mt-6 mb-6 lg:my-8 bg-[#E6328B] bg-opacity-45 text-white font-bold text-sm shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>

@@ -53,7 +53,7 @@ export default function Header() {
         </Link> 
         </div>
         <a href=" https://glovoapp.com/es/es/" target='_blank'>
-            <button style={{ boxShadow: "5px 5px #009b7e" }} className='md:hidden bg-[#FFC231] border-2 border-[#009b7e] w-[90px] h-[38px] rounded-full'>
+            <button style={{ boxShadow: "0px 4px #009b7e" }} className='md:hidden bg-[#FFC231] border-2 border-[#009b7e] w-[90px] h-[38px] rounded-full'>
                 <p className='bai uppercase tracking-tight text-[white] font-bold text-sm m-1'>{t('globoResponsive')}</p>
             </button>
         </a>
@@ -76,7 +76,7 @@ export default function Header() {
             </ul>
             <a href=" https://glovoapp.com/es/es/" target='_blank'>
             <button style={{ boxShadow: "5px 5px #009b7e" }} className='bg-[#FFC231] border-2 border-[#009b7e] w-[130px] h-[45px] rounded-full flex justify-center items-center'>
-                <p className='bai text-[#009b7e] font-bold text-md m-1'>{t('globo')}</p>
+                <p className='bai tracking-tight text-[white] font-bold text-md m-1'>{t('globo')}</p>
             </button>
             </a>
             <div className="relative inline-block text-left">
