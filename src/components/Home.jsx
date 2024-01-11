@@ -30,8 +30,8 @@ export default function Home() {
         <p className='charm text-xl lg:text-2xl'>{t('slogan')} <span className='text-3xl bg-gradient-to-r from-[#dad266] to-[#E6328B] text-transparent bg-clip-text'>{t('gozice')}</span></p>
       </div>
       <div className=''>
-        <img className='absolute bottom-2 right-0 w-[150px] lg:right-20 lg:top-56 lg:w-[170px]' src={Bebida} alt="" />
-        <img className='absolute bottom-1 right-44 w-[150px] lg:top-32 lg:right-80 lg:w-[170px]' src={Plate} alt="" />
+        <img className='absolute bottom-0 right-0 w-[140px] lg:right-20 lg:top-56 lg:w-[170px]' src={Bebida} alt="" />
+        <img className='absolute bottom-0 right-44 w-[140px] lg:top-32 lg:right-80 lg:w-[170px]' src={Plate} alt="" />
       </div>
       <div className='hidden text-xl lg:flex items-center gap-2 lg:text-2xl absolute bottom-2 left-2'>
         <Icon icon="mdi:instagram" />
