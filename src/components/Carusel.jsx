@@ -12,15 +12,19 @@ export default function Carusel() {
       <span className="mx-4">{t('goziceSlider')}</span>
       <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className='mx-4'>Còrsega 263</span>
+      <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className="mx-4">{t('goziceSlider')}</span>
       <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className='mx-4'>Còrsega 263</span>
+      <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className="mx-4">{t('goziceSlider')}</span>
       <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className='mx-4'>Còrsega 263</span>
+      <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className="mx-4">{t('goziceSlider')}</span>
       <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className='mx-4'>Còrsega 263</span>
+      <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className="mx-4">{t('goziceSlider')}</span>
       <img className='mx-4 w-[60px] h-[60px] m-auto' src={Smile} alt="" />
       <span className='mx-4'>Còrsega 263</span>

@@ -57,7 +57,8 @@ main{
 }
 
 .quick{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', cursive;
+  font-weight: 700;
 }
 
 .animate-slide {

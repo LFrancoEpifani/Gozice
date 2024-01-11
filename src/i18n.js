@@ -40,7 +40,7 @@ const resources = {
       missionText: 'Nuestra misión es sencilla pero poderosa: nutrir tu bienestar. Creemos en la importancia de ofrecer opciones nutritivas y deliciosas que hagan que cuidarte sea fácil y delicioso. Nos esforzamos por inspirarte a tomar decisiones más saludables, brindándote la energía y vitalidad que necesitas para enfrentar tu día. ',
       highText: 'En Gozice ofrecemos productos de la más alta calidad en cada sorbo y bocado. Nos esforzamos por superar tus expectativas al proporcionarte smoothies y acai bowls que no solo son deliciosos, sino que también están llenos de ingredientes de primera calidad. Nuestra dedicación a la excelencia se refleja en cada aspecto de lo que hacemos, desde la selección de ingredientes hasta la presentación final de nuestros productos.',
       serviceText: 'Brindamos un servicio excepcional que refleje nuestro compromiso con tu satisfacción y bienestar. Nos esforzamos para que en cada interacción, proporcionemos un servicio amable, rápido y personalizado. Estamos aquí para escucharte, responder a tus necesidades y hacer que tu experiencia con nosotros sea inolvidable. Tu felicidad y comodidad son nuestra prioridad número uno, y trabajamos para ofrecerte un servicio de la más alta calidad.',
-      goziceSlider: 'Smoothies y Bowls de Açaí',
+      goziceSlider: 'Smoothies & Bowls de Açaí',
      
     },
   },
