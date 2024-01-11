@@ -23,8 +23,8 @@ export default function Menu() {
     <div>
       <Header/>
     <div className='grid grid-cols-1 justify-center items-center scroll'>
-      <h2 className='text-center lg:text-start my-8 m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('bowls')}</h2>
-        <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 my-10 mx-14'>
+      <h2 className='text-center lg:text-start mt-8 lg:m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('bowls')}</h2>
+        <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 mt-4 mb-12 mx-14'>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
             <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={ClassicBowl} alt="" />
             <div className=''>
@@ -54,9 +54,9 @@ export default function Menu() {
             </div>
           </div>
         </div>
-        <h2 className='text-center lg:text-start my-8 m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('smoothies')}</h2>
+        <h2 className='text-center lg:text-start text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('smoothies')}</h2>
         <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 my-8 mx-2'>
-        <div className='flex-col lg:flex-row flex justify-center items-center gap-3 my-4'>
+        <div className='flex-col lg:flex-row flex justify-center items-center gap-3 mt-2 mb-6 mx-14'>
             <img className='w-[70px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={ClassicSmoothie} alt="" />
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#6D6E70] font-bold'>Classic<span className='flex items-center justify-center'>Smoothie</span></h3>
