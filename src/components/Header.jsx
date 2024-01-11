@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <div className=''>
-    <div className='flex justify-between items-center p-3 bg-[#fab3d2] md:bg-white'>
+    <div className='flex justify-between items-center p-3'>
         <div className='flex  justify-center items-center gap-4'>
         <button onClick={handleOpenMenu}>
             <Icon className={`${isOpen ? '' : ''} md:hidden text-2xl`} icon="clarity:menu-line" />
