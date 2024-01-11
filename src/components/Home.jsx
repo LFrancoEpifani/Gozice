@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className='w-full h-full'>
       <div className='text-center lg:text-start py-2 px-12'>
-        <h2 className='bai my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
+        <h2 className='my-5 text-3xl lg:text-5xl lg:w-2/5 text-[#E6328B] font-bold lg:my-10 lg:tracking-wide'>{t('title')}</h2>
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
