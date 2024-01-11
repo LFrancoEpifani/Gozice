@@ -23,7 +23,7 @@ export default function BurgerMenu(props) {
   };  
 
   return (
-    <div className=''>
+    <div className='z-20'>
      <nav className={`absolute top-0 left-0 z-20 bg-gradient-to-b from-[#f1f0d8] to-[#efaaca] h-screen w-full ${isOpen ? 'mobile-menu-out' : 'mobile-menu'}`}>
       <Icon onClick={props.onClick} className="absolute top-0 right-0 m-3 text-3xl " icon="mingcute:close-fill" />
         <ul className='bai text-4xl flex flex-col gap-3 justify-center items-start mt-44 mx-14'>
