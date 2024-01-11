@@ -23,7 +23,7 @@ export default function Home() {
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle')}</p>
         <p className='font-semibold text-md lg:text-lg text-gray-600'>{t('subtitle2')}</p>
         <Link to={"/menu"}>
-          <button style={{ boxShadow: "3px 3px #884365" }}  className='bai w-32 h-9 rounded-full my-6 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
+          <button className='bai w-32 h-9 rounded-full my-6 bg-[#E6328B] bg-opacity-45 text-white font-bold text-lg shadow-[#E6328B] shadow-md'>
             {t('ourmenu')}
           </button>
         </Link>
