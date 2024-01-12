@@ -1,5 +1,5 @@
 import React from 'react'
-import quality from '../assets/quality.png'
+
 
 export default function AboutUsGrid({title, paragraphs, image}) {
   return (
