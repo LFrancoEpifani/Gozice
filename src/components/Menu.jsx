@@ -1,7 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import ClassicBowl from '../assets/classic.png'
-import BlueChiaBowl from '../assets/rainbow1.png'
 import RainbowBowl from '../assets/rainbow1.png'
 import BlissPeanutBowl from '../assets/peanut.png'
 import Mangozice from '../assets/Mangozice.png'
@@ -43,13 +42,6 @@ export default function Menu() {
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Rainbow<span className='flex items-center justify-center'>Acai Bowl</span></h3>
               <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('rainbow')}</p>
-            </div>
-          </div>
-          <div className='flex-col lg:flex-row flex justify-center items-center'>
-            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={BlueChiaBowl} alt="" />
-            <div className=''>
-              <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Blue Chia<span className='flex items-center justify-center'>Acai Bowl</span></h3>
-              <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('blue')}</p>
             </div>
           </div>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
