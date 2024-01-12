@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import ClassicBowl from '../assets/classic.png'
-import BlueChiaBowl from '../assets/blueChia.png'
+import BlueChiaBowl from '../assets/rainbow1.png'
 import RainbowBowl from '../assets/rainbow1.png'
 import BlissPeanutBowl from '../assets/peanut.png'
 import Mangozice from '../assets/Mangozice.png'
