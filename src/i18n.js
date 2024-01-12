@@ -52,7 +52,7 @@ const resources = {
      globo: 'Order Now',
      globoResponsive: 'Order',
      title: 'Nurturing happy and healthy lifestyle',
-      subtitle: 'Immerse yourself in a world of wellness and flavor with our unique acai bowls and smoothie creations',
+      subtitle: 'Immerse yourself in a world of wellness and flavor with our unique acai bowls and smoothie creations.',
       slogan: 'Feel the taste, feel',
       gozice: 'Gozice',
       ourmenu: 'Our menú',

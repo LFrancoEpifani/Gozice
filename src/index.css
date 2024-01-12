@@ -11,9 +11,8 @@ body{
   box-sizing: border-box;
 }
 
-main{
-  overflow-y: hidden;
-}
+
+
 
 @keyframes slide-in {
   from {
@@ -90,10 +89,6 @@ main{
   font-family: 'Charm', sans-serif;
 }
 
-.scroll{
-  overflow-y: auto !important;
-}
-
 .img-size img{
   width: 80px;
   height: 80px;
@@ -121,3 +116,7 @@ main{
   background-color: #E6328B; 
   border-radius: 5px;
 }
+
+
+/* BURGER MENU */
+
