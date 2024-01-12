@@ -7,9 +7,6 @@ import Detozice from '../assets/Detozice.png'
 import Oranzice from '../assets/Oranzice.png'
 import ClassicSmoothie from '../assets/ClassicSmoothie.png'
 import Butterzice from '../assets/Butterzice.png'
-import Classic from '../assets/classic.png'
-import Rainbow from '../assets/rainbow.png'
-import Peanut from '../assets/peanut.png'
 import Footer from './Footer'
 import Header from './Header'
 import Carusel from './Carusel'
@@ -31,28 +28,28 @@ export default function Menu() {
       <h2 className='text-center lg:text-start my-8 lg:m-8 text-[#E6328B] font-bold text-2xl lg:my-12 uppercase'>{t('bowls')}</h2>
         <div className='grid grid-cols-1 lg:grid lg:grid-cols-3 items-center gap-8 mt-4 mb-12 mx-14'>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
-            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={ClassicBowl} alt="" />
+            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125'  alt="" />
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Classic<span className='flex items-center justify-center'>Acai Bowl</span></h3>
               <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('classic')}</p>
             </div>
           </div>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
-            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={RainbowBowl} alt="" />
+            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125'  alt="" />
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Rainbow<span className='flex items-center justify-center'>Acai Bowl</span></h3>
               <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('rainbow')}</p>
             </div>
           </div>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
-            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={RainbowBowl} alt="" />
+            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' alt="" />
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Rainbow<span className='flex items-center justify-center'>Acai Bowl</span></h3>
               <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('rainbow')}</p>
             </div>
           </div>
           <div className='flex-col lg:flex-row flex justify-center items-center'>
-            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' src={BlissPeanutBowl} alt="" />
+            <img className='w-[100px] lg:object-contain lg:transition-transform lg:transform lg:scale-100 lg:hover:scale-125' alt="" />
             <div className=''>
               <h3 className='text-lg uppercase text-center text-[#48889C] font-bold my-2'>Bliss Peanut<span className='flex items-center justify-center'>Acai Bowl</span></h3>
               <p className='text-[#B2B2B2] w-72 text-center text-md px-4'>{t('bliss')}</p>
