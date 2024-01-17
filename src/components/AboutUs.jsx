@@ -11,6 +11,7 @@ import about from '../assets/about.png'
 import { useTranslation } from 'react-i18next'
 import Footer from './Footer'
 import Header from './Header'
+import Carusel from './Carusel'
 
 
 export default function AboutUs() {
@@ -19,6 +20,7 @@ export default function AboutUs() {
 
   return (
     <div>
+      <Carusel/>
       <Header/>
       <section className='text-center grid grid-cols-1 p-4 w-full lg: lg:grid-cols-2 items-center justify-center lg:auto-rows-[25rem] gap-8 mx-auto lg:p-20'>
       <div className='text-[#EC5AA2]'>
