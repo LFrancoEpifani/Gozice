@@ -63,7 +63,7 @@ export default function Header() {
         )}
 
         <nav className='max-md:hidden lg:flex lg:justify-center lg:items-center lg:gap-6'>
-            <ul className='bai lg:flex lg:justify-center lg:items-center lg:gap-8 text-md'>
+            <ul className='bai lg:flex lg:justify-center lg:items-center lg:gap-8 text-md xl:text-xl'>
             <Link to="/" className={location.pathname === '/' ? 'active font-bold' : ''}>
                 <li className=''>{t('home')}</li>
             </Link>
